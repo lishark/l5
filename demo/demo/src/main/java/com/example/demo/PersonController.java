@@ -10,6 +10,7 @@ public class PersonController {
 
     @GetMapping("/person")
     public String getPerson(){
+        int i=5;
         return "Hello world";
     }
 }
